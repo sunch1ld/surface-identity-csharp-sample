@@ -26,9 +26,9 @@ This is a sample project that allow to use Surface Identity Web Api 1.0
     "Secret": "your-app-secret",                                            
     "TokenRequestURL": "https://...",                                       
     "IdentificationEndpointURL": "https://...",                             
-    "ProjectIds": [ 'projectId-1', 'projectId-2', 'projectId-N' ],          
+    "ProjectIds": [ "projectId-1", "projectId-2", "projectId-N" ],          
     "UnitOfMeasure": "m",                                                   
-    "Filename": "your-file-name.obj"                                        
+    "Filename": "your-file-name.obj",                                        
     "InstanceName": "your-instance-name"                                   
   }
 
@@ -36,8 +36,8 @@ This is a sample project that allow to use Surface Identity Web Api 1.0
 
    * AppId: your app id 
    * Secret: your app secret
-   * TokenRequestURL: surface identity URL used to get access token ('https://is.surfaceidentity.com/connect/token')
-   * IdentificationEndpointURL: url of surface identity web service ( i.e. 'https://api.surfaceidentity.com/api/Identify')
+   * TokenRequestURL: surface identity URL used to get access token (i.e "https://is.surfaceidentity.com/connect/token")
+   * IdentificationEndpointURL: url of surface identity web service ( i.e. "https://api.surfaceidentity.com/api/Identify")
    * ProjectIds: set of project that I would like to query
    * UnitOfMeasure: unit of measure used in the file i.e. 'm'
    * Filename: name of the file that contains the surface to recognize 
