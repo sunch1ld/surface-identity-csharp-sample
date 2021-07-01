@@ -28,7 +28,7 @@ This is a sample project that allow to use Surface Identity Web Api 1.0
     "IdentificationEndpointURL": "https://...",                             // Identification Service URL: url of surface identity web service ( i.e. 'https://api.surfaceidentity.com/api/Identify')
     "ProjectIds": [ 'projectId-1', 'projectId-2', 'projectId-N' ],          // Project Ids: set of project that I would like to query
     "UnitOfMeasure": "m",                                                   // Unit Of Measure Symbol: unit of measure used in the file i.e. 'm'
-    "Filename": "your-file-name.obj"                                        // Name of the file that contains the surface to recognize 
+    "Filename": "your-file-name.obj",                                        // Name of the file that contains the surface to recognize 
     "InstanceName": "your-instance-name"                                    // Name of the instance sending to server
   }
 
