@@ -39,7 +39,7 @@ namespace ClientSI
                 or.X.ToArray(), 
                 or.Y.ToArray(), 
                 or.Z.ToArray(), 
-                "m");
+                identificationSettings.UnitOfMeasure);
 
             var indentificationResults = await identification.IdentifyAsync(request);
 
